@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Title_btn : MonoBehaviour
+public class Battle_to_title_button : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -19,6 +19,6 @@ public class Title_btn : MonoBehaviour
 
     public void OnClick()
     {
-        SceneManager.LoadScene("BattleScene");
+        SceneManager.LoadScene("TitleScene");
     }
 }
